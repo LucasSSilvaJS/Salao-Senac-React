@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Megrim&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --color-white: #ffffff;
+    --color-very-light-blue: #40A8CE;
+    --color-light-blue: #6c79a3;
+    --color-medium-blue: #4a5378;
+    --color-dark-blue: #333a5c;
+    --color-navy-blue: #203764;
+    --color-orange: #f3921f;
+    --color-light-orange: #f7bd7a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-white {
+    background-color: var(--color-white) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-very-light-blue {
+    background-color: var(--color-very-light-blue) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-light-blue {
+    background-color: var(--color-light-blue) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-medium-blue {
+    background-color: var(--color-medium-blue) !important;
+}
+
+.bg-dark-blue {
+    background-color: var(--color-dark-blue) !important;
+}
+
+.bg-navy-blue {
+    background-color: var(--color-navy-blue) !important;
+}
+
+.bg-orange {
+    background-color: var(--color-orange) !important;
+}
+
+.bg-light-orange {
+    background-color: var(--color-light-orange) !important;
+}
+
+.bg-fundo-1{
+    background-image: url(./assets/fundo.login.1.png) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+.bg-fundo-1::after{
+    content: '' !important;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    position: absolute !important;
+    inset: 0 !important;
+    border-radius: 5px !important;
+}
+
+.bg-fundo-2{
+    background-image: url(./assets/fundo.login.2.png) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+.bg-fundo-2::after{
+    content: '' !important;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    position: absolute !important;
+    inset: 0 !important;
+    border-radius: 5px !important;
+}
+
+.custom-button.active{
+    border-top: 4px solid var(--color-navy-blue) !important;
 }
