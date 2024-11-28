@@ -44,31 +44,31 @@ function Header4({children, tituloMenu, imgMenu}) {
                     <div className="offcanvas-body bg-navy-blue">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item fw-bold">
-                                <Link to='/' className="nav-link text-white">
+                                <Link to='/dashboard' className="nav-link text-white">
                                     <FaHome size={25} color="var(--color-orange)" className="me-2"/>
                                     Início
                                 </Link>
                             </li>
                             <li className="nav-item fw-bold">
-                                <Link to='/notification' className="nav-link text-white">
+                                <Link className="nav-link text-white">
                                     <IoPersonOutline size={25} color="var(--color-orange)" className="me-2"/>
                                     Perfil
                                 </Link>
                             </li>
                             <li className="nav-item fw-bold">
-                                <Link to='/scheduling' className="nav-link text-white">
+                                <Link className="nav-link text-white">
                                     <GoGear size={25} color="var(--color-orange)" className="me-2"/>
                                     Sistema
                                 </Link>
                             </li>
                             <li className="nav-item fw-bold">
-                                <Link to='/scheduling' className="nav-link text-white">
+                                <Link className="nav-link text-white">
                                     <SlDoc size={25} color="var(--color-orange)" className="me-2"/>
                                     Documentos
                                 </Link>
                             </li>
                             <li className="nav-item fw-bold">
-                                <Link to='/scheduling' className="nav-link text-white">
+                                <Link to='/' className="nav-link text-white">
                                     <PiSignOutBold size={25} color="var(--color-orange)" className="me-2"/>
                                     Sair
                                 </Link>

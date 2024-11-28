@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
       <Header setValue={handleSelect} value={location}/>
-      <main className="w-100 d-flex flex-column align-items-center">
+      <main className="w-100 d-flex flex-column align-items-center" style={{minHeight: 'calc(100dvh - 86.47px - 25px)'}}>
         <div className="container row w-100" style={{ marginTop: '100px', marginBottom: '100px' }}>
           <div className="col-12 col-lg-6">
             <img src={imgHome} alt="Pessoa sendo atendida" className="img-fluid"/>

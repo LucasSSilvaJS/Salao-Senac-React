@@ -13,8 +13,8 @@ function Menu() {
                     </Link>
                     <div className="bg-fundo-1 w-100" style={{maxWidth: '600px', minHeight: '300px'}}>
                         <div className="position-absolute z-3 text-white d-flex flex-column justify-content-center align-items-center h-100 w-100 p-4">
-                            <Link className="btn bg-orange btn-success text-white w-100">Funcionário</Link>
-                            <Link to='/login' className="btn bg-orange btn-success text-white mt-2 w-100">Cliente</Link>
+                            <Link to='/login/funcionario' className="btn bg-orange btn-success text-white w-100">Funcionário</Link>
+                            <Link to='/login/cliente' className="btn bg-orange btn-success text-white mt-2 w-100">Cliente</Link>
                         </div>
                     </div>
                 </div>

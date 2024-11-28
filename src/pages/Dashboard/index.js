@@ -87,19 +87,19 @@ function Dashboard() {
                     </Link>
 
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <Link className="dropdown-item" to="#">
+                        <Link className="dropdown-item" to="/service">
                             Atendimento
                         </Link>
-                        <Link className="dropdown-item" to="#">
+                        <Link className="dropdown-item" to="/team">
                             Equipe
                         </Link>
-                        <Link className="dropdown-item" to="#">
+                        <Link className="dropdown-item" to="/create-service">
                             Serviços
                         </Link>
-                        <Link className="dropdown-item" to="#">
+                        <Link className="dropdown-item" to="/inventory">
                             Estoque
                         </Link>
-                        <Link className="dropdown-item" to="#">
+                        <Link className="dropdown-item" to="/feedback-adm">
                             Feedback
                         </Link>
                     </div>

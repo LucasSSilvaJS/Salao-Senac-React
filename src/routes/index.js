@@ -17,7 +17,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route element={<Home/>} path='/'/>
-      <Route element={<Login/>} path='/login'/>
+      <Route element={<Login/>} path='/login/:stakeholder'/>
       <Route element={<Menu/>} path='/menu'/>
       <Route element={<Password/>} path='/password'/>
       <Route element={<Scheduling/>} path='/scheduling'/>

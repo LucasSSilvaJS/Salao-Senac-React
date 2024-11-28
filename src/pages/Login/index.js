@@ -1,13 +1,19 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import Header2 from "../../components/Header2";
 import { RiArrowGoBackFill } from "react-icons/ri";
 
 function Login() {
     const navigate = useNavigate();
+    const {stakeholder} = useParams();
     
     function handleForm(e){
         e.preventDefault();
-        navigate('/scheduling');
+        if(stakeholder === 'cliente'){
+            navigate('/scheduling');
+        }
+        if(stakeholder === 'funcionario'){
+            navigate('/dashboard');
+        }
     }
 
     return ( 
