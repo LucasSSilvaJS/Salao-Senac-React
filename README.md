@@ -1,5 +1,5 @@
 # Projeto
-Salão de Beleza Senac
+Salão de Beleza Senac (FRONTEND)
 # Grupo: CAPITECH
 - LUCAS DE SOUZA SILVA
 - JENNIFER MAYARA DA SILVA ALMEIDA
